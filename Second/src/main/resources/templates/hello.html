@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>css and js thymeleaf</title>
+<link th:href="@{/css/main.css}" rel="stylesheet">
+<script type="text/javascript" th:src="@{/js/main.js}"></script>
+</head>
+<body>
+<h1 th:text="'hello '+${m}" class="funny"></h1>
+<input type="button" th:onclick="demo()" value="click"/>
+</body>
+</html>
