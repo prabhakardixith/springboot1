@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<p th:text="ThymeLeafProject"></p>
+
+	<h1>User List</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="u:${userList}">
+				<td th:text="${u.fname}"></td>
+				<td th:text="${u.lname}"></td>
+				<td > <a th:href="@{'/user?id='+${u.fname}}">Edit</a></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

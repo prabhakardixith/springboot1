@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/prabhakardixit/SpringBoot/SpringBoot-Lombok"/>
+			<item value="/Users/prabhakardixit/SpringBoot/SpringBootEmailClient"/>
+			<item value="/Users/prabhakardixit/SpringBoot/Spring-boot-hibernate-2"/>
+			<item value="/Users/prabhakardixit/SpringBoot/Spring-boot-hibernate 2"/>
+			<item value="/Users/prabhakardixit/SpringBoot/Spring-boot-hibernate"/>
+			<item value="/Users/prabhakardixit/SpringBoot/solution-code-spring-security-demo-03-custom-login-form"/>
+			<item value="/Users/prabhakardixit/SpringBoot/solution-code-spring-security-demo-02-basic-security 2"/>
+			<item value="/Users/prabhakardixit/SpringBoot/solution-code-spring-security-demo-02-basic-security"/>
+			<item value="/Users/prabhakardixit/SpringBoot/spring-security-demo-starter"/>
+			<item value="/Users/prabhakardixit/SpringBoot/thymeleafCrudDb"/>
+			<item value="/Users/prabhakardixit/SpringBoot/Second"/>
+			<item value="/Users/prabhakardixit/Springhibernate/34-thymeleafdemo-employees-list-db"/>
+			<item value="/Users/prabhakardixit/SpringBoot/First"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
